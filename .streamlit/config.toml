@@ -1,6 +1,14 @@
 [theme]
-primaryColor = "#FF4B4B"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#31333F"
+base = "dark"
+primaryColor = "#00E5A0"
+backgroundColor = "#0B0F14"
+secondaryBackgroundColor = "#111823"
+textColor = "#E8EEF7"
 font = "sans serif"
+
+[server]
+headless = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
